@@ -1,0 +1,33 @@
+/*comandos de la consola*/
+
+ls    - muestra la lista de carpetas
+pwd   - muestra en que carpeta nos encontramos
+
+/*antes de usar git*/
+
+
+cd D:...../proyecto_git  buscamos la carpeta donde creamos el proyecto
+
+
+/*comandos para usar git*/
+
+git help  - muestrauna lista con los comandos mas utilziados en git
+
+git init  - inicializamos un proyecto nuevo
+
+git status - para ver el estado de nuestros archivos(al inicio aparece en rojo y toca agregarlos)
+
+git add <file>  - file= nombre del archivo //sirve para agregar archivos (tiene que estar en verde /*git status*/)
+
+/*pequenia ayuda por si te olvidas*/
+git commit  - sirve para crear nuestro primer punto de control de nuestro codigo (pero tenemos que identificarnos)
+
+git config --global user.email "jayro1996_ag@hotmail.com"  - sirve para configurar el email del usuario
+
+git config --global user.name "jayro"  -  sirve para configurar el nombre del usuario
+
+git commit  - cuando esta correcto nos abre un editor llamado vim /*para escribir presionar la "i" / esc /: wq (para guardar cambios)*/
+
+git log  -  sirve para ver los commits que hemos creado (snapshot)
+
+git checkout -- <file>  -  sirve para deshacer los cambios que realizamos despues de haber creado el snapshot
