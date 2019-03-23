@@ -31,3 +31,9 @@ git commit  - cuando esta correcto nos abre un editor llamado vim /*para escribi
 git log  -  sirve para ver los commits que hemos creado (snapshot)
 
 git checkout -- <file>  -  sirve para deshacer los cambios que realizamos despues de haber creado el snapshot
+
+git diff <file>  - nos muestra las diferencias hechas en los archivos
+
+/*agregar un .gitignore y dentro poner todo lo que quieres ignorar */
+
+git commit -m "he agregado un gitignore"
